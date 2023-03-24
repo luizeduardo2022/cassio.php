@@ -9,6 +9,9 @@
     <title>Parque Aquatico Bonfim!</title>
 </head>
 <body>
+    <?php
+        include("menu.php");
+    ?>
     <h1>Venha trabalhar conosco! </h1>
 
 <div>
@@ -52,8 +55,9 @@
         <input type="text" name="Cursos"  placeholder=Cursos>
         <br>
         <br>
-
-        <input  class="btn btn-warning" type="submit" value="Entrar">
+        
+        <input  class="btn btn-warning"
+         type="submit" value="Entrar">
         <input class="btn btn-warning" type="reset" value="Limpar">
 </div>
     </form>    
